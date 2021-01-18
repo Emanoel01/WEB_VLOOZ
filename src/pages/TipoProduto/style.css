@@ -1,0 +1,16 @@
+.form_tipo_produto{
+    width: 300px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh;
+}
+
+.item_data_tipo_produto{
+    width: 33%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 10px;
+    text-align: center;
+}

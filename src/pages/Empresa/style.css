@@ -1,0 +1,13 @@
+.data_empresa{
+    width: 140px;
+    height: 100%;
+    float: left;
+    /* background-color: aqua; */
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+    letter-spacing:0 !important;
+}
+

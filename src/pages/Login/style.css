@@ -1,0 +1,81 @@
+div,input,button,table,h1,h2,h3,h4,h5,h6,h7,body,p{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-color:tomato;
+    box-sizing: border-box;
+    padding-top: 100px;
+    
+}
+
+.container_login{
+    width: 300px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(146, 64, 34);
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    
+}
+
+.logo{
+    height: 150px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: rgb(185, 43, 0); */
+    border-radius: 15px;
+    border: solid 2px white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+
+.logo p{
+     font-size: 60px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     color: white;
+}
+
+.form{
+    height: 280px;
+    width: inherit;
+    margin-top: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+}
+
+.inputs{
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
+    width: 240px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+}
+
+.form button{
+    margin-top: 10px;
+    width: 240px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "arial";
+    font-weight: bold;
+    color: tomato;
+    background-color: white;
+}

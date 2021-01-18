@@ -1,0 +1,157 @@
+body,div, input, a, p {
+    margin: 0;
+    padding: 0;
+}
+
+.content_header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(230, 50, 19, 1);
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.item{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 180px;
+    height: 40px;
+    background-color: white;
+    box-sizing: border-box;
+    padding-top: 12px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-family: arial;
+    font-weight: bold;
+    border: solid 1px black;
+}
+
+.dropdown{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    border: solid 1px black;
+    margin-left: 13px;
+    /* margin-left: 100px; */
+    margin-top: 5px;
+    box-sizing: border-box;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.dropdown p{
+    width: inherit;
+    height: 30px;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding-top: 5px;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px !important;
+}
+
+.dropdown p:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+.taxas:hover .dropdown_taxas{
+    transition: 0.5s;
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    z-index: 999;
+}
+
+.frete:hover .dropdown_frete{
+    transition: 0.5s;
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    z-index: 999;
+}
+
+.data_user{
+    height: 80px;
+    width: 80px;
+    /* background-color: white; */
+    /* text-align: center; */
+    background-image: url("../../images/icon_user_2.png");
+    background-repeat: no-repeat;
+    margin-top: -10px;
+    margin-left: 2vw;
+    float: left;
+}
+
+.dropdown_user{
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    border: solid 1px black;
+    margin-top: 60px;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    box-sizing: border-box;
+    padding: 2px;
+    margin-left: -5vw;
+}
+
+.dropdown_user p{
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dropdown_user button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.data_user:hover .dropdown_user{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    position: absolute;
+    z-index: 999;
+}
+
+.produtos_veiculos:hover .dropdown_produtos_veiculos{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    position: absolute;
+    z-index: 999;
+}
+
+.pessoas:hover .dropdown_pessoas{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    position: absolute;
+    z-index: 999;
+}
+
+.links{
+    text-decoration: none;
+}

@@ -1,0 +1,34 @@
+.data_faixa_preco{
+    width: 170px;
+    height: 100%;
+    float: left;
+    /* background-color: aqua; */
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+    letter-spacing:0 !important;
+}
+
+.filter{
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form_modal_faixa_preco{
+    top: 40%;
+    left: 40%;
+    transform: translate(-10%,-35%);
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}

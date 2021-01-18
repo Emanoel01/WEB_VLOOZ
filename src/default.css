@@ -1,0 +1,250 @@
+@media only screen and (min-width: 1100px){
+
+    h1,h2,h3,h4,h5,h6,h7{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*CLASSE QUE ESTILIZA A DIV PRINCIPAL QUE ENGLOBA  */
+    .content{
+        width: 100%;
+        height: 100vh;
+        overflow-y: auto;
+        background-color: rgb(237,237,237);
+        box-sizing: border-box;
+        text-align: center;
+        display: block;
+    }
+
+    .div-message-responsive{
+        display: none;
+    }
+    
+    /*CLASSE QUE ESTILZA O ELEMENTO UL*/
+    .lista{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        padding-bottom: 10px;
+    }
+    
+    /*CLASSE QUE ESTILIZA O ELEMENTO LI*/
+    .item_lista{
+        text-decoration: none;
+        list-style: none;
+        width: 95%;
+        height: 80px;
+        background-color: white;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+        box-sizing: border-box;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border: solid 1px black;
+    }
+    
+
+    .item_data{
+        width: 140px;
+        height: inherit;
+        margin-left:10px;
+        margin-right: 10px;
+        float: left;
+        /* background-color: blue; */
+        text-align: center;
+        box-sizing: border-box;
+        padding-top: 10px;
+        padding-bottom:5px;
+        /* border-left: solid 1px black;
+        border-right: solid 1px black; */
+    }
+    
+    /*CLASSE QUE ESTILIZA A DIV DENTRO DO LI*/
+    .data_item_lista{
+        width: 90%;
+        height: 100%;
+        float: left;
+        /* background-color: black; */
+    }
+    
+    /* CLASSE Q ESTILIZA TODO BOTAO DE DELETAR OU DESATIVAR/ATIVAR */
+    .button_delete{
+        text-align: center;
+        /* margin-left: auto; */
+        /* margin-left: auto; */
+        /* margin-right: 300px; */
+        background-color: red;
+        width: 80px;
+        height:40px;
+        text-decoration: none;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+    
+    /*CLASSE QUE ESTILZIA DIV QUE CONTEM O BOTAO DE ADICIONAR. */
+    .content_save_and_search{
+        width: 95%;
+        height: 60px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        /* background-color: aqua; */
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        padding-top: 10px;
+        text-align: end;
+    }
+    
+    /*CLASSE QUE ESTILIZA TODO BOTAO DE ADICIONAR*/
+    .add{
+        /* margin: 5px; */
+        width: 100px;
+        height: 50px;
+        margin-right: 10px;
+        background-color: rgb(49, 186, 45);
+        text-decoration: none;
+        border-radius: 10px;
+        border: none;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* CLASSE RESPONSAVEL PELOS ELEMENTOS CONTIDOS NA  MODAL */
+    .content_modal{
+        width: inherit;
+        height: inherit;
+        background-color: whitesmoke;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 10px;
+        border-radius: 10px;
+        border: solid 2px black;
+    }
+    
+    .content_modal h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+    
+    .content_modal input{
+        width: 100%;
+        height: 40px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 10px;
+        text-align: center;
+        border: solid 1px black;
+    }
+    
+    .content_modal button{
+        width: 100%;
+        height: 40px;
+        background-color: rgb(49, 186, 45);
+        text-decoration: none;
+        border: none;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: solid 1px black;
+        font-family: arial;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        color:white;
+    }
+    
+    .action_button{
+        float: left;
+        width: 10%;
+        height: 100%;
+        /* background-color: aqua; */
+        box-sizing: border-box;
+        text-align: right;
+        padding: 15px;
+        margin-left: auto;
+    }
+    
+    .data{
+        margin-top: 10px;
+        letter-spacing: 3px;
+        font-family: arial;
+        font-size: 14px;
+    }
+    
+    .titulo_dado{
+        font-weight: bold;
+        font-family: arial;
+        font-size: 14px;
+    }
+    
+    /*CLASSE QUE ESTILIZA O FORMULÁRIO DA MODAL*/
+    .form_modal{
+        top: 40%;
+        left: 40%;
+        transform: translate(-10%,-40%);
+        position: fixed;
+        min-width: 450px;
+        width: auto;
+        overflow-x: auto;
+        /* min-height: 350px; */
+        height: 500px;
+        overflow-y: auto;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    /*CLASSE QUE ESTILIZA O SELECT*/
+    .select{
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    /*CLASSE QUE ESTILIZA TODO BOTAO DE VIZUALIZAR/ATUALIZAR*/
+    .button_atualizar{
+        text-align: center;
+        margin-top: 10px;
+        background-color: rgb(67,152,204);
+        width: 80px;
+        height:40px;
+        text-decoration: none;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+
+}
+
+@media only screen and (max-device-width:1099px){
+    .content{
+        display: none;
+    }
+
+    .div-message-responsive{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        overflow-y: auto;
+        background-color: rgb(237,237,237);
+        box-sizing: border-box;
+        text-align: center;
+        padding: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
